@@ -6,3 +6,5 @@ slide.init();
 console.log(slide);
 
 slide.changeSlide(4);
+
+slide.actieNextSlide();

@@ -19,6 +19,10 @@ img {
 
 }
 
+slide:hover {
+  will-change: transform
+}
+
 .slide {
   display: flex;
   transition: .3s
@@ -29,4 +33,14 @@ img {
   flex-shrink: 0;
   max-width: 800px;
   margin: 0 20px;
+  opacity: .8;
+  overflow: hidden;
+  box-shadow: 0 2px 4px (rgba 0, 0, 0, .4);
+  transform: scale (.8);
+  border-radius: 5px;
+}
+
+.slide li.active {
+  opacity: 1;
+  transform: scale(1);
 }

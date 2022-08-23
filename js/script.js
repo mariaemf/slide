@@ -7,6 +7,6 @@ slide.changeSlide(4);
 
 slide.activeNextSlide();
 slide.addArrow(".prev", ".next");
-slide.addControl();
+slide.addControl(".custom-control");
 
 console.log(slide);

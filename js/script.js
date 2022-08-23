@@ -7,5 +7,6 @@ slide.changeSlide(4);
 
 slide.activeNextSlide();
 slide.addArrow(".prev", ".next");
+slide.addControl();
 
 console.log(slide);
